@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+/* هدر */
+header {
+    background: linear-gradient(90deg, #4A90E2, #7BC67E);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+header svg {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* باکس جستجو */
+.search-box {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.search-box input {
+    width: 80%;
+    max-width: 450px;
+    padding: 12px;
+    border: 2px solid #FFD45E;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* کارت کتاب */
+.books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.book-card {
+    background: white;
+    border: 2px solid #dcdcdc;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.07);
+    transition: 0.3s;
+}
+
+.book-card:hover {
+    transform: translateY(-3px);
+    border-color: #4A90E2;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4A90E2;
+}
+
+.book-info {
+    margin-top: 8px;
+    color: #555;
+}
