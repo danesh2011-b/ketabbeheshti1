@@ -31,7 +31,7 @@ h1 {
 /* باکس جستجو */
 .search-box {
     text-align: center;
-    margin: 25px 0;
+    margin: 25px 0 10px 0; /* فاصله پایین کمتر تا دسته‌بندی */
 }
 
 .search-box input {
@@ -41,6 +41,29 @@ h1 {
     border: 2px solid #FFD45E;
     border-radius: 10px;
     font-size: 18px;
+}
+
+/* دسته‌بندی‌ها */
+.categories {
+    text-align: center; /* وسط چین کردن دکمه‌ها */
+    margin-bottom: 20px; /* فاصله پایین تا کارت‌ها */
+}
+
+.categories button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #4A90E2;
+    border-radius: 8px;
+    background: white;
+    color: #4A90E2;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.categories button:hover {
+    background: #4A90E2;
+    color: white;
 }
 
 /* کارت کتاب */
