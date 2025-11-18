@@ -1,30 +1,31 @@
 [
-    {
-        "name": "ریاضی پایه",
-        "author": "مولف نامشخص",
-        "shelf": "قفسه 2",
-        "year": "1398",
-        "category": "درسی"
-    },
-    {
-        "name": "شنگول و منگول",
-        "author": "همون یاروعه",
-        "shelf": "s5",
-        "year": "1997",
-        "category": "داستان"
-    },
-    {
-        "name": "tarsnake",
-        "author": "همون یاروعه",
-        "shelf": "s8",
-        "year": "1996",
-        "category": "ترسناک"
-    },
-    {
-        "name": "هالا لاله ی من",
-        "author": "جان فرانکسون",
-        "shelf": "sun2",
-        "year": "2",
-        "category": "غیردرسی"
-    }
+  {
+    "name": "ریاضی پایه",
+    "author": "مولف نامشخص",
+    "shelf": "قفسه 2",
+    "year": "1398",
+    "category": "درسی",
+    "borrowed": true
+  },
+  {
+    "name": "شنگول و منگول",
+    "author": "همون یاروعه",
+    "shelf": "s5",
+    "year": "1997",
+    "category": "داستان"
+  },
+  {
+    "name": "tarsnake",
+    "author": "همون یاروعه",
+    "shelf": "s8",
+    "year": "1996",
+    "category": "ترسناک"
+  },
+  {
+    "name": "هالا لاله ی من",
+    "author": "جان فرانکسون",
+    "shelf": "sun2",
+    "year": "2",
+    "category": "غیردرسی"
+  }
 ]
